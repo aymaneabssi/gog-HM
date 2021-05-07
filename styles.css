@@ -8,14 +8,13 @@ img#icon {
   background-color: aliceblue;
 }
 
-nav {
+nav#navbar {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.8631827731092436) 90%,
     rgba(160, 15, 193, 0.8939950980392157) 100%
   );
-  position: fixed;
 }
 
 .fas {
@@ -72,13 +71,8 @@ i.fa-cart-plus {
 a.btn {
   width: 30px;
   height: 30px;
-  background: rgb(61, 223, 59);
-  background: linear-gradient(
-    0deg,
-    rgba(61, 223, 59, 1) 22%,
-    rgba(144, 214, 143, 1) 50%,
-    rgba(61, 223, 59, 1) 79%
-  );
+  background: rgba(223, 59, 172, 1);
+
   border-radius: 5%;
   box-shadow: 0 4px 8px 0 rgba(189, 187, 187, 0.2),
     0 6px 20px 0 rgba(252, 251, 251, 0.19);
@@ -145,4 +139,19 @@ p.price {
 }
 div.lilThing p {
   font-size: 15px;
+}
+.fa-highlighter {
+  color: black;
+}
+.breadcrumb-item a {
+  text-decoration: none;
+  color: rgb(75, 74, 74);
+}
+.breadcrumb-item.active a {
+  color: rgba(223, 59, 172, 1);
+}
+#games-cols {
+}
+#Game {
+  width: 100%;
 }
